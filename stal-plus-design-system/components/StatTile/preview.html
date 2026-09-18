@@ -1,0 +1,18 @@
+<!-- @dsCard group="Marketing" height=220 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+<style>
+  .demo { padding: 40px 32px; background: var(--surface-muted); display: flex; gap: 48px; flex-wrap: wrap; }
+</style>
+<div id="root"></div>
+<script>
+  var StatTile = window.StalPlus.StatTile;
+  var React = window.React, h = React.createElement;
+  var app = h('div', { className: 'demo' },
+    h(StatTile, { value: '120+', label: 'Тысяч изделий' }),
+    h(StatTile, { value: '20+', label: 'Лет опыта' }),
+    h(StatTile, { value: '60', unit: 'минут', label: 'Огнестойкость дверей' }),
+    h(StatTile, { value: '1.5', unit: 'мм', label: 'Толщина металла' }),
+    h(StatTile, { value: '99.9', unit: '%', label: 'Довольных клиентов' })
+  );
+  ReactDOM.createRoot(document.getElementById('root')).render(app);
+</script>

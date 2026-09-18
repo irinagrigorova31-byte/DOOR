@@ -1,0 +1,36 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-09-17T10:28:10Z" },
+  "title": "Сталь-Плюс",
+  "namespace": "StalPlus",
+  "libraries": [
+    { "name": "react", "version": "18" },
+    { "name": "react-dom", "version": "18" }
+  ],
+  "sections": {},
+  "groups": ["Logos"],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": ["stal-plus-lockup.png"],
+      "files": {
+        "stal-plus-lockup.png": {
+          "name": "stal-plus-lockup.png",
+          "blob": "7e593a75b14c909453f1d6260ca5dac8",
+          "size": 9413,
+          "type": "image/png"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": { "readme": "project/README.md", "sections": [] },
+  "lastChange": {
+    "by": "May",
+    "at": "2026-09-17T10:28:10Z",
+    "via": "Cowork",
+    "note": "Created the Сталь-Плюс design system from brand screenshots: tokens, brand book, four components and a cover."
+  }
+}

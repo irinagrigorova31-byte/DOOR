@@ -1,0 +1,85 @@
+/* Сталь-Плюс component styles. Loaded after tokens.css; tokens come in as CSS vars. */
+
+.sp-btn {
+  font-family: var(--font-sans);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border: 2px solid transparent;
+  border-radius: var(--radius-square);
+  padding: 14px var(--space-5);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.sp-btn--solid { background: var(--ink); color: var(--white); }
+.sp-btn--solid:hover { background: var(--navy); }
+.sp-btn--outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.sp-btn--outline:hover { background: var(--ink); color: var(--white); }
+.sp-btn--block { display: flex; width: 100%; }
+.sp-btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.sp-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+.sp-stat { display: flex; flex-direction: column; gap: var(--space-1); }
+.sp-stat__value {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: var(--blue);
+  white-space: nowrap;
+}
+.sp-stat__unit { font-size: 24px; margin-left: 2px; }
+.sp-stat__label {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--text-muted);
+}
+
+.sp-feature {
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+  border-radius: var(--radius-square);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.sp-feature__icon { color: var(--blue); line-height: 0; }
+.sp-feature__title {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  color: var(--ink);
+  margin: 0;
+}
+.sp-feature__body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.sp-heading {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--blue);
+  margin: 0;
+}

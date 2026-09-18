@@ -1,0 +1,16 @@
+<!-- @dsCard group="Marketing" height=160 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+<style>
+  .demo { padding: 40px 32px; background: var(--surface-muted); display: flex; flex-direction: column; gap: 12px; }
+  .demo p { font-family: var(--font-sans); font-size: 16px; line-height: 26px; color: var(--ink); margin: 0; max-width: 46ch; }
+</style>
+<div id="root"></div>
+<script>
+  var SectionHeading = window.StalPlus.SectionHeading;
+  var React = window.React, h = React.createElement;
+  var app = h('div', { className: 'demo' },
+    h(SectionHeading, null, 'Почему нас выбирают'),
+    h('p', null, 'Собственное производство в Липецке, доставка и монтаж по всей области, гарантия 12 месяцев на каждое изделие.')
+  );
+  ReactDOM.createRoot(document.getElementById('root')).render(app);
+</script>

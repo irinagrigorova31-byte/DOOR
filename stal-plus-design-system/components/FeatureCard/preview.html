@@ -1,0 +1,35 @@
+<!-- @dsCard group="Marketing" height=280 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+<style>
+  .demo { padding: 40px 32px; background: var(--surface-muted); display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; }
+</style>
+<div id="root"></div>
+<script>
+  var FeatureCard = window.StalPlus.FeatureCard;
+  var React = window.React, h = React.createElement;
+  function icon(children) {
+    return h('svg', { width: 40, height: 40, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': 1.6, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, children);
+  }
+  var truck = icon([
+    h('path', { key: 1, d: 'M1 3h13v10H1z' }),
+    h('path', { key: 2, d: 'M14 6h4l3 3v4h-7z' }),
+    h('circle', { key: 3, cx: 5.5, cy: 16.5, r: 1.8 }),
+    h('circle', { key: 4, cx: 17.5, cy: 16.5, r: 1.8 })
+  ]);
+  var tag = icon([
+    h('path', { key: 1, d: 'M20 12l-8 8-9-9V3h8z' }),
+    h('circle', { key: 2, cx: 7.5, cy: 7.5, r: 1.4 })
+  ]);
+  var headset = icon([
+    h('path', { key: 1, d: 'M4 13v-1a8 8 0 0 1 16 0v1' }),
+    h('rect', { key: 2, x: 2.5, y: 13, width: 4, height: 6, rx: 1 }),
+    h('rect', { key: 3, x: 17.5, y: 13, width: 4, height: 6, rx: 1 }),
+    h('path', { key: 4, d: 'M20 19a4 4 0 0 1-4 3h-2' })
+  ]);
+  var app = h('div', { className: 'demo' },
+    h(FeatureCard, { icon: truck, title: 'Доставим и установим' }, 'В удобное для вас время'),
+    h(FeatureCard, { icon: tag, title: 'Цены от производителя' }, 'Собственное производство в Липецке'),
+    h(FeatureCard, { icon: headset, title: 'Гарантия 12 месяцев' }, 'И послегарантийное обслуживание')
+  );
+  ReactDOM.createRoot(document.getElementById('root')).render(app);
+</script>
