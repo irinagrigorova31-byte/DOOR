@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Завод «Сталь-Плюс» в цифрах: цех 1000 м², 9 станков, 100–300 дверей в месяц, около 25 000 дверей с 2005 года">
+  <title>Завод «Сталь-Плюс» в цифрах</title>
+  <rect width="1000" height="300" fill="#102d50"/>
+  <text x="40" y="52" font-family="'PT Sans','Segoe UI',system-ui,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1.4" fill="#0088cd">ЗАВОД «СТАЛЬ-ПЛЮС» В ЦИФРАХ · ЛИПЕЦК</text>
+  <rect x="40" y="66" width="72" height="3" fill="#0088cd"/>
+  <!-- 4 stat tiles -->
+  <g font-family="'PT Sans','Segoe UI',system-ui,Arial,sans-serif">
+    <text x="40"  y="180" font-size="64" font-weight="700" fill="#ffffff">1000 м²</text>
+    <text x="40"  y="212" font-size="15" font-weight="700" letter-spacing="1.2" fill="#828b91">СОБСТВЕННЫЙ ЦЕХ</text>
+
+    <text x="300" y="180" font-size="64" font-weight="700" fill="#ffffff">9</text>
+    <text x="300" y="212" font-size="15" font-weight="700" letter-spacing="1.2" fill="#828b91">СТАНКОВ</text>
+
+    <text x="470" y="180" font-size="64" font-weight="700" fill="#ffffff">100–300</text>
+    <text x="470" y="212" font-size="15" font-weight="700" letter-spacing="1.2" fill="#828b91">ДВЕРЕЙ В МЕСЯЦ</text>
+
+    <text x="770" y="180" font-size="64" font-weight="700" fill="#ffffff">~25 000</text>
+    <text x="770" y="212" font-size="15" font-weight="700" letter-spacing="1.2" fill="#828b91">ДВЕРЕЙ С 2005 ГОДА</text>
+  </g>
+  <line x1="280" y1="120" x2="280" y2="220" stroke="#1c3d63" stroke-width="1"/>
+  <line x1="450" y1="120" x2="450" y2="220" stroke="#1c3d63" stroke-width="1"/>
+  <line x1="750" y1="120" x2="750" y2="220" stroke="#1c3d63" stroke-width="1"/>
+  <text x="40" y="270" font-family="'PT Sans',Arial,sans-serif" font-size="13" fill="#5781aa">Данные производства на 2026-09-19. ООО «Сталь-Плюс», ул. Баумана, 307Е.</text>
+</svg>
