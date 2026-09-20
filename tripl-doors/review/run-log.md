@@ -36,4 +36,6 @@
 | 2026-09-20 | 8 · разметка+инфогр.+hero | schema-markup ∥ infographic-maker ∥ hero-maker | OK | `drafts/page-01.jsonld` (8 узлов, валиден, без AggregateRating/фейк-цен), `drafts/page-01-infographics.html` (3 SVG), `drafts/page-01-hero-brief.md`. Гомоглифы 0 |
 | 2026-09-20 | 9 · вёрстка | page-builder | OK | `preview/page-01.html` — hero-банд + интро + слот каталога + SEO-блоки с SVG + FAQ + контакты + футер + JSON-LD. Адаптив. Гомоглифы 0 |
 | 2026-09-20 | 10 · инспекция | final-inspector | OK (итер. 1) | `review/final-inspection-01.md` — правило 4/мета/ФЗ-38/NAP чисто; 2 точечные правки применены (мета 198→141 симв.; срок сертификата в видимый текст). Готово к техчеку (шаг 12); delivery — по RELEASE |
+| 2026-09-20 | 11 · упаковка | page-builder | OK (RELEASE) | Оператор дал RELEASE. `delivery/`: vhodnye-dveri-lipetsk.html (самодостаточная), .jsonld, -infographics.html, meta.txt, README-handoff.md |
+| 2026-09-20 | 12 · техчек | homoglyph-checker | OK | delivery/ (5 файлов) + preview/ — 0 проблем, 0 невидимых. JSON-LD валиден. ПРОЕКТ СОБРАН |
 

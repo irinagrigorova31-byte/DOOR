@@ -1,0 +1,16 @@
+МЕТА — витрина «Входные двери», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/
+(завод-входных-дверей.рф/product-category/vhodnye-dveri/)
+
+Title (53 симв.):
+Входные двери в Липецке от завода — замер и установка
+
+Description (141 симв.):
+Входные двери от завода «Сталь-Плюс» в Липецке: производство, индивидуальные размеры от 2 суток, свой замер, доставка и установка по Липецку.
+
+Open Graph:
+og:type = website
+og:title = Входные двери в Липецке от завода — замер и установка
+og:description = Завод «Сталь-Плюс» в Липецке: двери от производителя, индивидуальные размеры от 2 суток, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vhodnye-dveri-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
