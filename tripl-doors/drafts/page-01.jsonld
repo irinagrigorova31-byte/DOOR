@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org",
+      "name": "Сталь-Плюс",
+      "legalName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «СТАЛЬ-ПЛЮС»",
+      "url": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/",
+      "description": "Завод входных дверей в Липецке: собственное производство, изготовление по индивидуальным размерам, замер, доставка и установка по Липецку.",
+      "telephone": "+7 905 044-12-34",
+      "email": "stal-plus@mail.ru",
+      "taxID": "4825131957",
+      "identifier": [
+        { "@type": "PropertyValue", "propertyID": "ОГРН", "value": "1194827000015" },
+        { "@type": "PropertyValue", "propertyID": "ИНН", "value": "4825131957" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "398056",
+        "addressLocality": "Липецк",
+        "streetAddress": "ул. Им. Баумана, стр. 307Е, офис 1",
+        "addressCountry": "RU"
+      },
+      "areaServed": { "@type": "City", "name": "Липецк" },
+      "sameAs": [
+        "https://yandex.ru/maps/org/stal_plyus/1248129153/",
+        "https://2gis.ru/lipetsk/firm/7881827628878301",
+        "https://vk.com/stal_plus",
+        "https://t.me/zavod_dverei",
+        "https://www.avito.ru/brands/i236848",
+        "https://companies.rbc.ru/id/1194827000015-obschestvo-s-ogranichennoj-otvetstvennostyu-stal-plyus/"
+      ],
+      "hasCertification": {
+        "@type": "Certification",
+        "name": "Сертификат соответствия на противопожарные двери ДПМ (предел огнестойкости EI60/S15)",
+        "certificationIdentification": "ЕАЭС RU C-RU.НЕ25.В.00065/25",
+        "certificationStatus": "CertificationActive",
+        "issuedBy": { "@type": "Organization", "name": "Национальный испытательный центр" },
+        "expires": "2030-03-20",
+        "about": "Двери противопожарные стальные типа ДПМ (ТР ЕАЭС 043/2017)"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/",
+      "url": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/",
+      "name": "Входные металлические двери в Липецке — от завода «Сталь-Плюс»",
+      "inLanguage": "ru",
+      "dateModified": "2026-09-20",
+      "isPartOf": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "about": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "ГОСТ 31173-2016 «Блоки дверные стальные. Технические условия»",
+          "url": "https://protect.gost.ru/gost/details/ab37ea42-5ccb-4f03-adaf-da14330d12c9"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "ГОСТ Р 57327-2016 «Двери металлические противопожарные»",
+          "url": "https://protect.gost.ru/gost/details/d2d60d98-ee1f-46a2-83ea-4f75a7d2255c"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/" },
+        { "@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/catalog/" },
+        { "@type": "ListItem", "position": 3, "name": "Входные двери" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Замер входной двери в Липецке",
+      "serviceType": "Замер дверного проёма",
+      "provider": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "areaServed": { "@type": "City", "name": "Липецк" }
+    },
+    {
+      "@type": "Service",
+      "name": "Доставка входных дверей по Липецку и области",
+      "serviceType": "Доставка",
+      "provider": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "areaServed": { "@type": "City", "name": "Липецк" }
+    },
+    {
+      "@type": "Service",
+      "name": "Установка входной двери в Липецке",
+      "serviceType": "Монтаж двери",
+      "provider": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "areaServed": { "@type": "City", "name": "Липецк" }
+    },
+    {
+      "@type": "Service",
+      "name": "Изготовление входных дверей по индивидуальным размерам",
+      "serviceType": "Производство двери по индивидуальным размерам, срок от 2 суток",
+      "provider": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/#org" },
+      "areaServed": { "@type": "City", "name": "Липецк" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/#faq",
+      "isPartOf": { "@id": "https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-dveri/" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Можно ли ставить как входную дешёвую дверь за 6 000 рублей?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Дверь за такие деньги — это тонкий металл и лёгкий наполнитель, её место в подсобке или техпомещении. Как входная в квартиру или дом она не держит ни тепло, ни взлом, а фурнитура быстро выходит из строя. Для входа берите дверь с честной толщиной стали и нормальными замками."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Делаете ли двери по нестандартным размерам и за какой срок?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, изготовление по индивидуальным размерам — большая часть нашей работы, делаем практически любые размеры. Срок изготовления — от 2 суток, если заказ срочный."
+          }
+        }
+      ]
+    }
+  ]
+}
