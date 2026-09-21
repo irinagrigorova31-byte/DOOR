@@ -1,0 +1,16 @@
+МЕТА — витрина «Двери для частного дома / уличные», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/dveri-dlya-doma-ili-kvartiry/
+(завод-входных-дверей.рф/product-category/dveri-dlya-doma-ili-kvartiry/)
+
+Title (53 симв.):
+Входные двери для частного дома в Липецке — от завода
+
+Description (159 симв.):
+Уличные входные двери для частного дома в Липецке от завода «Сталь-Плюс»: с терморазрывом, индивидуальные размеры от 2 суток, свой замер, доставка и установка.
+
+Open Graph:
+og:type = website
+og:title = Входные двери для частного дома в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: уличные двери для частного дома с терморазрывом и утеплением, индивидуальные размеры от 2 суток, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/dveri-dlya-doma-ili-kvartiry/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/dveri-dlya-doma-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)

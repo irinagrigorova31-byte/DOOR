@@ -1,0 +1,65 @@
+<!--
+Инфографика витрины 02 «Двери для частного дома / уличные» — inline-SVG (шаг 8, infographic-maker).
+По ТЗ data/tz/tz-02.md. Палитра бренда (input/brand.md). Встраивается page-builder'ом в соответствующие H2.
+Не дублирует HTML-таблицы витрины (квартира-vs-улица; на что смотреть). Без выдуманных °C (governance).
+Цвета: navy #102d50 · blue #0088cd · ink #22252a · surface #f4f4f4 · border #e7e7e7 ·
+green #2E9E5B · red #C83E3E · muted #828b91. Шрифт PT Sans.
+-->
+
+<!-- ============ Рис. 1 — Дерево решений «Нужен ли терморазрыв» (в H2 «Нужен ли двери терморазрыв и когда») ============ -->
+<figure>
+<svg viewBox="0 0 720 400" role="img" aria-labelledby="d1-t d1-d"
+     xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:'PT Sans','Segoe UI',system-ui,Arial,sans-serif">
+  <title id="d1-t">Когда входной двери нужен терморазрыв</title>
+  <desc id="d1-d">Терморазрыв нужен на границе с улицей или холодным тамбуром (частный дом, дача); между квартирой и тёплым подъездом он не нужен.</desc>
+  <rect x="260" y="16" width="200" height="56" fill="#102d50"/>
+  <text x="360" y="49" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">Где стоит дверь?</text>
+  <path d="M320 72 L180 132" stroke="#0088cd" stroke-width="3" fill="none"/>
+  <path d="M400 72 L540 132" stroke="#0088cd" stroke-width="3" fill="none"/>
+  <text x="180" y="150" fill="#22252a" font-size="15" text-anchor="middle"><tspan x="180" dy="0">Выход на улицу</tspan><tspan x="180" dy="20">или холодный тамбур</tspan><tspan x="180" dy="20" fill="#828b91">частный дом, дача, отдельный вход</tspan></text>
+  <text x="540" y="150" fill="#22252a" font-size="15" text-anchor="middle"><tspan x="540" dy="0">Между квартирой</tspan><tspan x="540" dy="20">и тёплым подъездом</tspan></text>
+  <rect x="55" y="238" width="250" height="72" fill="#2E9E5B"/>
+  <text x="180" y="282" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">Терморазрыв нужен</text>
+  <rect x="415" y="238" width="250" height="72" fill="#C83E3E"/>
+  <text x="540" y="272" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle"><tspan x="540" dy="0">Терморазрыв — переплата,</tspan><tspan x="540" dy="22">не работает</tspan></text>
+  <path d="M180 150 L180 238" stroke="#e7e7e7" stroke-width="2"/>
+  <path d="M540 168 L540 238" stroke="#e7e7e7" stroke-width="2"/>
+  <text x="360" y="352" fill="#22252a" font-size="15" font-style="italic" text-anchor="middle">Не уверены — подскажем на замере</text>
+</svg>
+<figcaption><em>Рис. 1. Когда входной двери нужен терморазрыв</em></figcaption>
+</figure>
+
+<!-- ============ Рис. 2 — Как работает терморазрыв (в H2 «Чем уличная дверь отличается от квартирной») ============ -->
+<figure>
+<svg viewBox="0 0 720 380" role="img" aria-labelledby="d2-t d2-d"
+     xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:'PT Sans','Segoe UI',system-ui,Arial,sans-serif">
+  <title id="d2-t">Как работает терморазрыв в двери</title>
+  <desc id="d2-d">Без терморазрыва металл полотна проводит холод с улицы внутрь, дверь промерзает и на ней выступает конденсат. Полимерная вставка терморазрыва разрывает мостик холода.</desc>
+  <!-- Панель А: без терморазрыва -->
+  <text x="185" y="30" fill="#22252a" font-size="16" font-weight="700" text-anchor="middle">Без терморазрыва</text>
+  <text x="70" y="60" fill="#828b91" font-size="13" text-anchor="middle">улица</text>
+  <text x="300" y="60" fill="#828b91" font-size="13" text-anchor="middle">дом</text>
+  <rect x="150" y="70" width="70" height="220" fill="#102d50"/>            <!-- сплошной металл -->
+  <path d="M60 120 H300" stroke="#C83E3E" stroke-width="6" marker-end="url(#arrR)"/>
+  <path d="M60 170 H300" stroke="#C83E3E" stroke-width="6" marker-end="url(#arrR)"/>
+  <path d="M60 220 H300" stroke="#C83E3E" stroke-width="6" marker-end="url(#arrR)"/>
+  <text x="185" y="315" fill="#C83E3E" font-size="13" font-weight="700" text-anchor="middle">Холод проходит насквозь</text>
+  <text x="185" y="335" fill="#828b91" font-size="12" text-anchor="middle">промерзание, конденсат внутри</text>
+  <!-- Панель Б: с терморазрывом -->
+  <text x="535" y="30" fill="#22252a" font-size="16" font-weight="700" text-anchor="middle">С терморазрывом</text>
+  <text x="420" y="60" fill="#828b91" font-size="13" text-anchor="middle">улица</text>
+  <text x="650" y="60" fill="#828b91" font-size="13" text-anchor="middle">дом</text>
+  <rect x="500" y="70" width="30" height="220" fill="#102d50"/>            <!-- наружный металл -->
+  <rect x="530" y="70" width="14" height="220" fill="#2E9E5B"/>           <!-- полимерная вставка -->
+  <rect x="544" y="70" width="26" height="220" fill="#102d50"/>          <!-- внутренний металл -->
+  <path d="M410 120 H528" stroke="#C83E3E" stroke-width="6"/>
+  <path d="M410 170 H528" stroke="#C83E3E" stroke-width="6"/>
+  <path d="M410 220 H528" stroke="#C83E3E" stroke-width="6"/>
+  <text x="537" y="308" fill="#2E9E5B" font-size="13" font-weight="700" text-anchor="middle">Вставка разрывает</text>
+  <text x="537" y="326" fill="#2E9E5B" font-size="13" font-weight="700" text-anchor="middle">мостик холода</text>
+  <defs>
+    <marker id="arrR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#C83E3E"/></marker>
+  </defs>
+</svg>
+<figcaption><em>Рис. 2. Как работает терморазрыв: полимерная вставка разрывает мостик холода</em></figcaption>
+</figure>

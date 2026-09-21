@@ -50,3 +50,5 @@
 | 2026-09-21 | 9 · вёрстка | page-builder | OK | `preview/page-02.html` — макет строго по образцу витрины 01. JSON валиден, секции 9/9, SVG 2/2 |
 | 2026-09-21 | 10 · инспекция | final-inspector | OK | `review/final-inspection-02.md` — правило 4/мета/ФЗ-38/NAP/консистентность с в.01 чисто. Правок не требуется. Готово к техчеку/RELEASE |
 
+| 2026-09-21 | 11 · упаковка | page-builder | OK (RELEASE) | Оператор дал RELEASE витрины 02. `delivery/`: dveri-dlya-doma-lipetsk.html/.jsonld/-infographics.html + meta-02.txt; README-handoff расширен на 2 витрины |
+| 2026-09-21 | 12 · техчек | homoglyph-checker | OK | delivery/ (обе витрины) — 0 проблем, 0 невидимых. JSON-LD обеих валиден. ВИТРИНА 02 СОБРАНА |
