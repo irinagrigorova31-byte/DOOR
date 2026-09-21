@@ -37,5 +37,16 @@
 | 2026-09-20 | 9 · вёрстка | page-builder | OK | `preview/page-01.html` — hero-банд + интро + слот каталога + SEO-блоки с SVG + FAQ + контакты + футер + JSON-LD. Адаптив. Гомоглифы 0 |
 | 2026-09-20 | 10 · инспекция | final-inspector | OK (итер. 1) | `review/final-inspection-01.md` — правило 4/мета/ФЗ-38/NAP чисто; 2 точечные правки применены (мета 198→141 симв.; срок сертификата в видимый текст). Готово к техчеку (шаг 12); delivery — по RELEASE |
 | 2026-09-20 | 11 · упаковка | page-builder | OK (RELEASE) | Оператор дал RELEASE. `delivery/`: vhodnye-dveri-lipetsk.html (самодостаточная), .jsonld, -infographics.html, meta.txt, README-handoff.md |
-| 2026-09-20 | 12 · техчек | homoglyph-checker | OK | delivery/ (5 файлов) + preview/ — 0 проблем, 0 невидимых. JSON-LD валиден. ПРОЕКТ СОБРАН |
+| 2026-09-20 | 12 · техчек | homoglyph-checker | OK | delivery/ (5 файлов) + preview/ — 0 проблем, 0 невидимых. JSON-LD валиден. ВИТРИНА 01 СОБРАНА |
+| 2026-09-21 | — | ОРКЕСТРАТОР | СТРАНИЦА 2 | Новый кластер 02 «двери для частного дома/улица», URL /product-category/dveri-dlya-doma-ili-kvartiry/. Клиент/регион те же |
+| 2026-09-21 | 1 · parse | serp-parser | OK | serp-extra-27 (Яндекс-Топ, 3 запроса×20). Ось: улица+терморазрыв+производитель. Brand поз.8/19. `data/serp-parsed-02.md` |
+| 2026-09-21 | 1.5 · domains | domain-inventory | OK → ВОРОТА-1 | `data/domain-inventory-02.md`. Оператор: реверс cache-only (без фетчей); alfamart24/znaki154 — конкуренты; маркетплейсы — placement |
+| 2026-09-21 | 2 · сущности/триплеты | entity-mapper ∥ triplet-collector | OK | `data/entities-02.md` (дельта: терморазрыв в ядро, частный дом/морозостойкость); `data/triplets-02.md` (D01-D11/DO1-DO7/DR1-DR3, узел = уличные с терморазрывом) |
+| 2026-09-21 | 3 · скилл-р2 | niche-expert | OK | скилл §9 (дом/улица): сегмент Б, разведение 01↔02, DR1-DR3, citation-target; authorities +ГОСТ 15150 (to-check) |
+| 2026-09-21 | 4 · ТЗ | tz-writer | OK | `data/tz/tz-02.md`; interlinks — двусторонний мост 01↔02 |
+| 2026-09-21 | 5 · текст | copywriter (+gist-auditor оператора) | OK | `drafts/page-02.md`; NAP-регрессия к 398026 исправлена на 398056 (ЕГРЮЛ) |
+| 2026-09-21 | 7 · кластер | cluster-inspector | OK | `review/cluster-inspection-02.md` — серия 01↔02 состоятельна; правки витрины 01: ужат дубль терморазрыва + добавлен мост 01→02 |
+| 2026-09-21 | 8 · разметка+инфогр.+hero | schema-markup ∥ infographic-maker ∥ hero-maker | OK | `page-02.jsonld` (8 узлов, без противопож.сертификата — не в тексте), `page-02-infographics.html` (2 SVG: дерево + как работает терморазрыв), `page-02-hero-brief.md` |
+| 2026-09-21 | 9 · вёрстка | page-builder | OK | `preview/page-02.html` — макет строго по образцу витрины 01. JSON валиден, секции 9/9, SVG 2/2 |
+| 2026-09-21 | 10 · инспекция | final-inspector | OK | `review/final-inspection-02.md` — правило 4/мета/ФЗ-38/NAP/консистентность с в.01 чисто. Правок не требуется. Готово к техчеку/RELEASE |
 
