@@ -1,0 +1,58 @@
+# Domain-inventory — кластер 02 «Входные двери для частного дома / уличные»
+
+> Шаг 1.5. Источник: `data/serp-parsed-02.md` / `input/serp/serp-extra-27.xlsx` (2026-09-21, Яндекс/Топ).
+> Наш домен `завод-входных-дверей.рф` (`xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai`) — клиент, исключён.
+> Маркетплейсы/DIY (Ozon, Wildberries, Я.Маркет, Лемана ПРО, Стройландия) — **placement**, НЕ реверс
+> (правило CLAUDE.md + решение оператора по кластеру 01). `yandex.ru` (картинки/колдунщик) — служебный.
+
+## Конкуренты (в реверс)
+
+### Уже прочитаны в кластере 01 (кэш `cache/pages/` — переиспользуем базовые триплеты)
+<table>
+<tr><th>Домен</th><th>X (из 20-топ ×3q)</th><th>Приоритет реверса под ДОМ/улицу</th></tr>
+<tr><td>lipeck.dverimagnat.ru</td><td>3</td><td>ВЫСОКИЙ — сниппеты «тёплые/уличные»; был 403 в к.01 → добрать дом-страницу</td></tr>
+<tr><td>lipeck.mir-door.ru</td><td>3</td><td>ВЫСОКИЙ</td></tr>
+<tr><td>prioritet48.ru</td><td>3</td><td>ВЫСОКИЙ (часто #1 Липецк)</td></tr>
+<tr><td>lipetsk.estetdveri.ru</td><td>3</td><td>ВЫСОКИЙ — «от производителя»</td></tr>
+<tr><td>lipeck.metaldveri.ru</td><td>3</td><td>ВЫСОКИЙ — «уличные с терморазрывом»; в к.01 пустой снимок → добрать</td></tr>
+<tr><td>lipeck.dveri-klin.su</td><td>3</td><td>Средний</td></tr>
+<tr><td>lipetsk.dveriizstali.ru</td><td>3</td><td>ВЫСОКИЙ</td></tr>
+<tr><td>dver-lipetsk.ru</td><td>3</td><td>ВЫСОКИЙ (конкурент подтверждён оператором)</td></tr>
+<tr><td>lipeck.mall-of-doors.ru</td><td>3</td><td>Средний</td></tr>
+<tr><td>lipezk.valbergsafe.ru</td><td>2</td><td>Средний (в к.01 403 → WebFetch)</td></tr>
+<tr><td>lipetsk.dveri-ideal.ru</td><td>2</td><td>Средний</td></tr>
+<tr><td>lipetsk.dveri-baza.ru</td><td>1</td><td>Низкий</td></tr>
+<tr><td>lipetsk.zsdoor.ru (ЗСД)</td><td>1</td><td>ВЫСОКИЙ тематически (лидер ниши), хоть частота в этом кластере низкая</td></tr>
+<tr><td>липецк.пождверь.рф (2 варианта punycode)</td><td>1+1</td><td>Средний — противопожарные (пересечение с дифференциатором клиента)</td></tr>
+</table>
+
+### Новые домены (в кластере 01 не разбирались) — кандидаты на фетч
+<table>
+<tr><th>Домен</th><th>X</th><th>Что это / приоритет</th></tr>
+<tr><td>spacedoors.ru</td><td>3</td><td>Витрина/бренд (не липецкий поддомен) — проверить дом/улицу; Средний</td></tr>
+<tr><td>dveri-alliance.ru</td><td>1</td><td>Витрина — Низкий</td></tr>
+<tr><td>lipezk.profsafe.ru</td><td>1</td><td>Витрина (Липецк, бренд ProfSafe) — Средний</td></tr>
+<tr><td>dveri.com · enterdoor.ru</td><td>1 · 1</td><td>Федеральные витрины — Низкий (гео-размытие)</td></tr>
+</table>
+
+### Спорные «?» — на решение оператора
+<table>
+<tr><th>Домен</th><th>Сомнение</th></tr>
+<tr><td>lipetsk.alfamart24.ru</td><td>Похоже на маркетплейс/сеть хозтоваров (двери — часть ассортимента). Скорее placement, не реверс</td></tr>
+<tr><td>lipetsk.znaki154.ru</td><td>Профиль «знаки/таблички» — двери непрофильны. Скорее placement/шум, не реверс</td></tr>
+</table>
+
+## Placement (цели off-site, НЕ реверс)
+Ozon, Wildberries, Я.Маркет, Лемана ПРО (`lipetsk.lemanapro.ru`), Стройландия (`lipetsk.stroylandiya.ru`),
++ спорные alfamart24/znaki154 (если оператор подтвердит как агрегаторы).
+
+## Карта разрыва (citation-gap)
+Выгрузка 27 — только Топ (нет блоков «Обзор ИИ»/PAA) → наблюдаемого AI-цитирования по кластеру нет в данных.
+Ранжируемся (поз. 8/19), но целевой витрины под интент «частный дом/улица» нет. Маршрут: **on-site**
+(сделать свою витрину дома цитируемой), off-site пока не открываем (нет наблюдаемого AI-слоя в этой выгрузке).
+
+## ⛔ ВОРОТА-1 — подтвердить ДО реверса
+1. **Глубина реверса:** взять базу из кэша к.01 (общие атрибуты) + добрать ДОМ/улицу-страницы у 4–5 топовых
+   (dverimagnat, metaldveri, mir-door, prioritet48, estetdveri) + новый spacedoors — или ограничиться кэшем к.01?
+2. **alfamart24 / znaki154** — в placement (не реверс)? (рекомендую да).
+3. Маркетплейсы/DIY — placement (как в к.01)? (рекомендую да).
