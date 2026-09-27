@@ -52,3 +52,25 @@
 
 | 2026-09-21 | 11 · упаковка | page-builder | OK (RELEASE) | Оператор дал RELEASE витрины 02. `delivery/`: dveri-dlya-doma-lipetsk.html/.jsonld/-infographics.html + meta-02.txt; README-handoff расширен на 2 витрины |
 | 2026-09-21 | 12 · техчек | homoglyph-checker | OK | delivery/ (обе витрины) — 0 проблем, 0 невидимых. JSON-LD обеих валиден. ВИТРИНА 02 СОБРАНА |
+
+---
+
+## Витрина 03 «Гаражные ворота (металлические распашные)» — автоматический прогон (2026-09-27)
+
+URL: `/product-category/garazhnye-vorota/`. Оператор: «работай автоматически по инструкции». Продукт = металлические
+РАСПАШНЫЕ ворота (серт.2 ГОСТ 31174-2017 № ССГБ RU.СП01.Н00698); секционные/автоматические — честная развилка, НЕ товар.
+
+- **serp-parser / domain-inventory / prompts:** `data/serp-parsed-03.md`, `data/domain-inventory-03.md`, `data/prompts-03.md`. Домен №1 по «металлические гаражные ворота». Ось: распашные (наш) vs секционные (не наш).
+- **entity-mapper:** `data/entities-03.md` — гл. сущность «металлические распашные ворота»; калитка/утепление/проём; ГОСТ 31174-2017 (серт.2) — незаменимый узел; развилка распашные/секционные как определитель.
+- **triplet-collector:** `data/triplets-03.md` — G01–G11 (ядро), GO1–GO7 (own), GR1–GR4 (точки отказа), незаменимый узел, пустоты.
+- **niche-expert:** скилл §10 (сегмент «владелец гаража», governance-ось, точки отказа, citation-target).
+- **tz-writer:** `data/tz/tz-03.md` — H1, паспорт, TL;DR, 6 вопросных H2, 2 HTML-таблицы, FAQ, мосты, governance, мета, план разметки.
+- **copywriter:** `drafts/page-03.md` — видимый текст (ОКВЭД 25.11; соответствие ГОСТ через номер серт.; без цены/огнестойкости/°C).
+- **cluster-inspector:** `review/cluster-inspection-03.md` — серия 3 витрин состоятельна; ворота не каннибализируют двери (разные ГОСТ/ОКПД2/пользователь); правок не требуется.
+- **schema-markup:** `drafts/page-03.jsonld` — 8 узлов (LocalBusiness+hasCertification серт.2, CollectionPage, BreadcrumbList, 4×Service, FAQPage). Правило 4 сверено программно. Секционные/AggregateRating/огнестойкость — НЕ добавлены.
+- **infographic-maker:** `drafts/page-03-infographics.html` — 2 inline-SVG (Рис.1 дерево «распашные vs секционные — кому что»; Рис.2 схема ворот с калиткой). Таблицы не дублируют.
+- **hero-maker:** `drafts/page-03-hero-brief.md` — бриф hero/og (без секционных/автоматики/огнестойкости в кадре).
+- **page-builder:** `preview/page-03.html` — по образцу витрин 01/02 (chrome/CSS/порядок Hero→сетка→текст→…→футер), 9 секций, 2 SVG, 2 таблицы, мост 03→01 «входные двери» + 03→/o-nas.
+- **final-inspector:** `review/final-inspection-03.md` — Title 51, Descr 151 (сокращена с 178), правило 4 OK, governance чисто, AI-лексикон 0, гомоглифы 0. Вердикт: готово.
+- **Упаковка:** `delivery/garazhnye-vorota-lipetsk.{html,jsonld,-infographics.html}` + `meta-03.txt`; README-handoff обновлён до 3 витрин.
+- **Гомоглифы (все файлы витрины 03):** 0 критичных, 0 невидимых. Критичные в общем скане — только pre-existing (cache/*, input/pricing.md, CLAUDE.md, agent-пример), не в наших deliverables.

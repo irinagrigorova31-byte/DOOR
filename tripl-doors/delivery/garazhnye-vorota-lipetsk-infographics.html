@@ -1,0 +1,68 @@
+<!--
+Инфографика витрины 03 «Гаражные ворота (металлические распашные)» — inline-SVG (шаг 8, infographic-maker).
+По ТЗ data/tz/tz-03.md. Палитра бренда (input/brand.md). Встраивается page-builder'ом в соответствующие H2.
+Не дублирует HTML-таблицы витрины (распашные-vs-секционные — параметрическая; что смотреть у ворот).
+Рис.1 — дерево решений «кому что» (иная модальность, чем таблица-сравнение). Рис.2 — схема ворот (нет в тексте дословно).
+Без выдуманных чисел/°C и без огнестойкости воротам (governance). Цвета: navy #102d50 · blue #0088cd ·
+ink #22252a · surface #f4f4f4 · border #e7e7e7 · green #2E9E5B · red #C83E3E · muted #828b91. Шрифт PT Sans.
+-->
+
+<!-- ============ Рис. 1 — Дерево решений «Распашные или секционные — кому что» (в H2 «Распашные или секционные») ============ -->
+<figure>
+<svg viewBox="0 0 720 400" role="img" aria-labelledby="v1-t v1-d"
+     xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:'PT Sans','Segoe UI',system-ui,Arial,sans-serif">
+  <title id="v1-t">Распашные или секционные гаражные ворота — кому что</title>
+  <desc id="v1-d">Распашным металлическим воротам не нужен запас места над проёмом и электропитание, их проще ремонтировать — подходят для простого гаража. Секционные автоматические удобны при частом въезде, если есть место под потолком и питание.</desc>
+  <rect x="250" y="16" width="220" height="56" fill="#102d50"/>
+  <text x="360" y="41" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle"><tspan x="360" dy="0">Что важнее для гаража?</tspan></text>
+  <text x="360" y="62" fill="#ffffff" font-size="13" text-anchor="middle" opacity="0.85">место, питание, сервис</text>
+  <path d="M320 72 L180 132" stroke="#0088cd" stroke-width="3" fill="none"/>
+  <path d="M400 72 L540 132" stroke="#0088cd" stroke-width="3" fill="none"/>
+  <text x="180" y="150" fill="#22252a" font-size="15" text-anchor="middle"><tspan x="180" dy="0">Нет запаса над проёмом,</tspan><tspan x="180" dy="20">нужна надёжность и бюджет,</tspan><tspan x="180" dy="20" fill="#828b91">простой гараж без автоматики</tspan></text>
+  <text x="540" y="150" fill="#22252a" font-size="15" text-anchor="middle"><tspan x="540" dy="0">Частый въезд, есть</tspan><tspan x="540" dy="20">место под потолком</tspan><tspan x="540" dy="20" fill="#828b91">и электропитание</tspan></text>
+  <rect x="55" y="248" width="250" height="72" fill="#2E9E5B"/>
+  <text x="180" y="280" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle"><tspan x="180" dy="0">Распашные</tspan><tspan x="180" dy="22">металлические</tspan></text>
+  <rect x="415" y="248" width="250" height="72" fill="#2C5F8A"/>
+  <text x="540" y="280" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle"><tspan x="540" dy="0">Секционные</tspan><tspan x="540" dy="22">автоматические</tspan></text>
+  <path d="M180 210 L180 248" stroke="#e7e7e7" stroke-width="2"/>
+  <path d="M540 210 L540 248" stroke="#e7e7e7" stroke-width="2"/>
+  <text x="360" y="362" fill="#22252a" font-size="15" font-style="italic" text-anchor="middle">Наш профиль — распашные металлические; о секционных скажем честно</text>
+</svg>
+<figcaption><em>Рис. 1. Распашные или секционные гаражные ворота — кому что подходит</em></figcaption>
+</figure>
+
+<!-- ============ Рис. 2 — Схема металлических распашных ворот с калиткой (в H2 «Нужны ли воротам калитка и утепление») ============ -->
+<figure>
+<svg viewBox="0 0 720 380" role="img" aria-labelledby="v2-t v2-d"
+     xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:'PT Sans','Segoe UI',system-ui,Arial,sans-serif">
+  <title id="v2-t">Устройство металлических распашных ворот с калиткой</title>
+  <desc id="v2-d">Распашные ворота состоят из стальной рамы, двух створок на усиленных петлях и запора. В одну створку встраивается проходная калитка; по контуру ставится утепление и уплотнение.</desc>
+  <!-- рама (проём) -->
+  <rect x="150" y="60" width="420" height="250" fill="#f4f4f4" stroke="#102d50" stroke-width="6"/>
+  <!-- левая створка -->
+  <rect x="156" y="66" width="204" height="238" fill="#2C5F8A" stroke="#102d50" stroke-width="2"/>
+  <!-- правая створка -->
+  <rect x="360" y="66" width="204" height="238" fill="#2C5F8A" stroke="#102d50" stroke-width="2"/>
+  <!-- линия притвора по центру -->
+  <line x1="360" y1="66" x2="360" y2="304" stroke="#102d50" stroke-width="4"/>
+  <!-- калитка в правой створке -->
+  <rect x="400" y="120" width="120" height="184" fill="#0088cd" stroke="#102d50" stroke-width="2"/>
+  <circle cx="410" cy="212" r="4" fill="#ffffff"/>
+  <!-- петли слева и справа -->
+  <rect x="150" y="110" width="10" height="26" fill="#22252a"/>
+  <rect x="150" y="234" width="10" height="26" fill="#22252a"/>
+  <rect x="560" y="110" width="10" height="26" fill="#22252a"/>
+  <rect x="560" y="234" width="10" height="26" fill="#22252a"/>
+  <!-- запор по центру -->
+  <rect x="350" y="176" width="20" height="30" fill="#D69614"/>
+  <!-- выноски -->
+  <text x="255" y="40" fill="#22252a" font-size="14" font-weight="700" text-anchor="middle">Две распашные створки</text>
+  <text x="90" y="90" fill="#22252a" font-size="13" text-anchor="middle"><tspan x="90" dy="0">Усиленные</tspan><tspan x="90" dy="16">петли</tspan></text>
+  <path d="M120 100 L150 122" stroke="#828b91" stroke-width="1.5"/>
+  <text x="632" y="215" fill="#0088cd" font-size="13" font-weight="700" text-anchor="middle"><tspan x="632" dy="0">Калитка</tspan><tspan x="632" dy="16" fill="#22252a">проход без</tspan><tspan x="632" dy="16" fill="#22252a">открытия створок</tspan></text>
+  <path d="M580 212 L522 212" stroke="#828b91" stroke-width="1.5"/>
+  <text x="360" y="335" fill="#D69614" font-size="13" font-weight="700" text-anchor="middle">Запор по центру</text>
+  <text x="360" y="356" fill="#22252a" font-size="13" text-anchor="middle">По контуру — утепление и уплотнение (опция под холодный гараж)</text>
+</svg>
+<figcaption><em>Рис. 2. Устройство металлических распашных ворот с калиткой</em></figcaption>
+</figure>
