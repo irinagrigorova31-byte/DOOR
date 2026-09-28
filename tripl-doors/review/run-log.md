@@ -74,3 +74,24 @@ URL: `/product-category/garazhnye-vorota/`. Оператор: «работай �
 - **final-inspector:** `review/final-inspection-03.md` — Title 51, Descr 151 (сокращена с 178), правило 4 OK, governance чисто, AI-лексикон 0, гомоглифы 0. Вердикт: готово.
 - **Упаковка:** `delivery/garazhnye-vorota-lipetsk.{html,jsonld,-infographics.html}` + `meta-03.txt`; README-handoff обновлён до 3 витрин.
 - **Гомоглифы (все файлы витрины 03):** 0 критичных, 0 невидимых. Критичные в общем скане — только pre-existing (cache/*, input/pricing.md, CLAUDE.md, agent-пример), не в наших deliverables.
+
+---
+
+## Витрина 04 «Противопожарные двери (металлические)» — автоматический прогон (2026-09-28)
+
+URL: `/product-category/dveri-protivopozharnye-metallicheskie/`. Сильнейший дифференциатор клиента (обязательный
+сертификат ЕАЭС). **Первая витрина по новому правилу тире** (`methodology/dash-rule-ru.md`).
+
+- **serp/domain/prompts:** `data/serp-parsed-04.md`, `domain-inventory-04.md`, `prompts-04.md`. Наш домен в Топ по всем 4 запросам (поз. 5–14). Доминанты: «от производителя» 16, EI 60, ДПМ 8.
+- **entity-mapper:** `data/entities-04.md` — гл. сущность ДПМ (fire door Q898284); ТР ЕАЭС 043/2017 + ГОСТ Р 57327-2016 как незаменимый узел; EI60 — единственный verified предел.
+- **triplet-collector:** `data/triplets-04.md` — P01–P11, PO1–PO8, PR1–PR4, незаменимый узел, пустоты.
+- **niche-expert:** скилл §11.
+- **tz-writer:** `data/tz/tz-04.md` — H1, паспорт, TL;DR, 6 H2, 2 таблицы, FAQ, hasCertification ×2, правило тире.
+- **copywriter:** `drafts/page-04.md` — 970 слов, 1 тире (лимит 6.5), запрещённых конструкций 0; EI латиницей; реальные номера серт.
+- **cluster-inspector:** `review/cluster-inspection-04.md` — серия 4 витрин состоятельна; выявлена каннибализация «противопожарные» 01↔04 → рекомендация оператору (ужать блок в в.01 + мост 01→04).
+- **schema-markup:** `drafts/page-04.jsonld` — 8 узлов, hasCertification ×2 (ЕАЭС EI60/S15 + ГОСТ EI60), about fire door Q898284, citation ТР ЕАЭС + ГОСТ. Правило 4 сверено.
+- **infographic-maker:** `drafts/page-04-infographics.html` — 2 inline-SVG (Рис.1 устройство ДПМ; Рис.2 определитель маркировки EI, прочие пределы серым/справочно). Таблицы не дублируют.
+- **hero-maker:** `drafts/page-04-hero-brief.md`.
+- **page-builder:** `preview/page-04.html` — по образцу витрин 01–03, 9 секций, 2 SVG, 2 таблицы, мост 04→01.
+- **final-inspector:** `review/final-inspection-04.md` — Title 49, Descr 153, правило 4 OK, тире OK, governance чисто, AI-лексикон 0, гомоглифы 0.
+- **Упаковка:** `delivery/dveri-protivopozharnye-lipetsk.{html,jsonld,-infographics.html}` + `meta-04.txt`; README-handoff обновлён до 4 витрин.

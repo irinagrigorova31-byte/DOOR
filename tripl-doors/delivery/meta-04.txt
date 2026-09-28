@@ -1,0 +1,16 @@
+МЕТА — витрина «Противопожарные двери (металлические)», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/dveri-protivopozharnye-metallicheskie/
+(завод-входных-дверей.рф/product-category/dveri-protivopozharnye-metallicheskie/)
+
+Title (49 симв.):
+Противопожарные двери в Липецке: от завода, EI 60
+
+Description (153 симв.):
+Противопожарные металлические двери ДПМ в Липецке от завода «Сталь-Плюс»: предел EI 60, сертификаты ЕАЭС и ГОСТ, на заказ по размерам, замер и установка.
+
+Open Graph:
+og:type = website
+og:title = Противопожарные двери в Липецке: от завода, EI 60
+og:description = Завод «Сталь-Плюс» в Липецке: противопожарные металлические двери ДПМ с пределом EI 60, сертификаты ЕАЭС и ГОСТ, на заказ по размерам, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/dveri-protivopozharnye-metallicheskie/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/dveri-protivopozharnye-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
