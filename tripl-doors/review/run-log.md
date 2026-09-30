@@ -95,3 +95,22 @@ URL: `/product-category/dveri-protivopozharnye-metallicheskie/`. Сильней�
 - **page-builder:** `preview/page-04.html` — по образцу витрин 01–03, 9 секций, 2 SVG, 2 таблицы, мост 04→01.
 - **final-inspector:** `review/final-inspection-04.md` — Title 49, Descr 153, правило 4 OK, тире OK, governance чисто, AI-лексикон 0, гомоглифы 0.
 - **Упаковка:** `delivery/dveri-protivopozharnye-lipetsk.{html,jsonld,-infographics.html}` + `meta-04.txt`; README-handoff обновлён до 4 витрин.
+
+---
+
+## Перевёрстка витрин 03 и 04 в формат Porto (2026-09-30)
+
+Оператор прислал `methodology/style-landing-porto.md` (правила вёрстки под тему Porto + Elementor + Popup Maker,
+по итогам ручной доработки витрины 02). Решения оператора: перевёрстка витрин 03 и 04; превью оставить;
+JSON-LD внутри контент-блока.
+
+- Спецификация сохранена: `methodology/style-landing-porto.md`. Пойнтеры добавлены в скилл §7 и README-handoff.
+- Витрина 03 → `delivery/garazhnye-vorota-lipetsk-hero.html` + `-content.html` (два блока Elementor) + обновлённое превью `garazhnye-vorota-lipetsk.html`.
+- Витрина 04 → `delivery/dveri-protivopozharnye-lipetsk-hero.html` + `-content.html` + обновлённое превью.
+- Применено: скоуп-классы `.szp-hero`/`.szp-content`; шрифт Poppins (без своего link); CTA `href="#svyaz"`;
+  ховер тёмной кнопки `#22252a`→`#0077b3`; full-bleed hero и `.section--muted`; фото hero `[cat_hero_image]`
+  (aspect-ratio 4/3); JSON-LD инлайн внутри контент-блока (8 узлов, у 04 — hasCertification ×2); дата обновления
+  скриптом (`#szp-update-date`, текущий месяц − 2). Каталог/шапка/крошки/подвал в блоки не включены.
+- Контроль: JSON-LD валиден (8 узлов у каждой), структурных запретов нет (нет doctype/html/head/body/footer/
+  header/hero-класса/крошек), правило тире для 04 соблюдено, гомоглыфы 0 во всех новых файлах и превью.
+- Текст витрин 03/04 сохранён дословно (перевёрстка формата, не переписывание).
