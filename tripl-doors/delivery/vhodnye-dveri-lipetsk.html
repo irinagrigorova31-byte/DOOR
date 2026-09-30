@@ -13,7 +13,7 @@
 <meta property="og:image" content="https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vhodnye-dveri-lipetsk-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +53,7 @@
 :root{
   --navy:#102d50; --blue:#0088cd; --ink:#22252a; --white:#fff; --surface:#f4f4f4;
   --border:#e7e7e7; --muted:#828b91; --notify:#d64550;
-  --sans:"PT Sans","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  --sans:"Poppins","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
   --sp4:16px; --sp5:24px; --sp6:32px; --sp8:48px; --sp10:64px; --wrap:1160px;
 }
 *{box-sizing:border-box}
@@ -89,7 +89,8 @@ p{margin:0 0 var(--sp4)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp4);margin-bottom:var(--sp6)}
 .stat .num{font-size:34px;line-height:1;font-weight:700;color:var(--blue)}
 .stat .cap{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#9fb0c4;margin-top:6px}
-.cta{display:inline-block;background:var(--ink);color:var(--white);text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;padding:14px 26px}
+.cta{display:inline-block;background:var(--ink);color:var(--white);text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;padding:14px 26px;border:0;transition:color .15s, background-color .15s, border-color .15s, box-shadow .15s, transform .2s}
+.cta:hover{background:#0077b3;color:var(--white);text-decoration:none}
 .hero .photo{background:linear-gradient(135deg,#1b3a63,#0f2743);border:1px solid #24466e;min-height:280px;display:flex;align-items:center;justify-content:center;color:#7f97b5;font-size:14px;text-align:center;padding:var(--sp5)}
 /* intro */
 .tldr{background:var(--surface);border:1px solid var(--border);padding:var(--sp5);margin:var(--sp5) 0}
@@ -149,7 +150,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
       <div class="stat"><div class="num">от 2 суток</div><div class="cap">Срок изготовления</div></div>
       <div class="stat"><div class="num">1000 м²</div><div class="cap">Собственный цех</div></div>
     </div>
-    <a class="cta" href="#zamer">Вызвать замерщика</a>
+    <a class="cta" href="#svyaz">Вызвать замерщика</a>
   </div>
   <div class="photo">Фото стальной двери / цеха завода<br>(reserved: assets/hero/vhodnye-dveri-lipetsk-hero.jpg)</div>
 </div></section>
@@ -279,7 +280,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 
 <section class="section"><div class="wrap">
   <h2 class="q-h2">Противопожарные двери завода</h2>
-  <p>Кроме обычных входных дверей завод «Сталь-Плюс» производит противопожарные двери типа ДПМ. Это отдельная продукция: у неё подтверждён предел огнестойкости EI60/S15 по обязательной сертификации ТР ЕАЭС 043/2017 (сертификат № ЕАЭС RU C-RU.НЕ25.В.00065/25 действует до 20 марта 2030 года, <a href="https://pub.fsa.gov.ru/" target="_blank" rel="noopener">проверить в реестре Росаккредитации</a>) и по <a href="https://protect.gost.ru/gost/details/d2d60d98-ee1f-46a2-83ea-4f75a7d2255c" target="_blank" rel="noopener">ГОСТ Р 57327-2016</a> «Двери металлические противопожарные». Обычная квартирная дверь противопожарной не является. Если нужна именно противопожарная дверь, смотрите раздел <a href="#">противопожарные двери</a>.</p>
+  <p>Кроме обычных входных дверей завод «Сталь-Плюс» производит противопожарные двери типа ДПМ. Это отдельная продукция: у неё подтверждён предел огнестойкости EI60/S15 по обязательной сертификации ТР ЕАЭС 043/2017 (сертификат № ЕАЭС RU C-RU.НЕ25.В.00065/25 действует до 20 марта 2030 года, <a href="https://pub.fsa.gov.ru/" target="_blank" rel="noopener">проверить в реестре Росаккредитации</a>) и по <a href="https://protect.gost.ru/gost/details/d2d60d98-ee1f-46a2-83ea-4f75a7d2255c" target="_blank" rel="noopener">ГОСТ Р 57327-2016</a> «Двери металлические противопожарные». Обычная квартирная дверь противопожарной не является. Если нужна именно противопожарная дверь, смотрите раздел <a href="/product-category/dveri-protivopozharnye-metallicheskie/">противопожарные двери</a>.</p>
   <!-- Рис.3 определитель -->
   <figure>
   <svg viewBox="0 0 720 380" role="img" aria-labelledby="ig3-t ig3-d" style="max-width:100%;height:auto;font-family:var(--sans)">
@@ -324,8 +325,11 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 <section class="section"><div class="wrap">
   <h2 style="color:var(--ink)">О заводе и материале</h2>
   <p>Производство «Сталь-Плюс» — это цех площадью 1000 м² в Липецке, штат от 10 до 20 человек и 9 металлообрабатывающих и кузнечно-прессовых станков; выпускаем от 100 до 300 изделий в месяц. Подробнее — на странице <a href="/o-nas/">завод входных дверей в Липецке</a>.</p>
-  <p style="color:var(--muted);font-size:14px">Материал подготовлен специалистами завода «Сталь-Плюс». Дата обновления: 20 сентября 2026 года.</p>
+  <p style="color:var(--muted);font-size:14px">Материал подготовлен специалистами завода «Сталь-Плюс». Дата обновления: <span id="szp-update-date">июль 2026 года</span>.</p>
 </div></section>
+<script>
+(function(){var el=document.getElementById('szp-update-date');if(!el)return;var m=["январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"];var d=new Date();d.setDate(1);d.setMonth(d.getMonth()-2);el.textContent=m[d.getMonth()]+" "+d.getFullYear()+" года";})();
+</script>
 
 <footer class="footer"><div class="wrap cols">
   <div>
