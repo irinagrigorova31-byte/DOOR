@@ -178,3 +178,29 @@ H1 «металлические, на заказ»; убраны жалюзий�
 Рис.1 створчатые/складные, Рис.2 «сплошное полотно = полное затемнение»; таблицы/FAQ/JSON-LD обновлены.
 Обновлены: drafts/page-07.md, delivery/vnutrennie-stavni-lipetsk-{hero,content}.html, превью, meta-07.txt, скилл §14,
 баннеры-правки в data/*-07. Контроль: тире 0, JSON-LD 8 узлов, hasCertification нет, гомоглифы 0. Материал снят из открытых вопросов.
+
+---
+
+## Витрина 08 «Распашные гаражные ворота» — автоматический прогон без SERP (2026-10-02)
+
+URL: `/product-category/vorota-garazhnye-raspashnye/`. Оператор: SERP не будет. Формат Porto + правило тире.
+Критично: тот же продукт, что в витрине 03 → анти-каннибализация.
+
+- **Без SERP:** `data/serp-parsed-08.md` (приоритет по промптам + скилл §9/§15 + перенос из к.03).
+- **prompts/domain/entities/triplets:** `data/prompts-08.md`, `domain-inventory-08.md`, `entities-08.md`, `triplets-08.md`.
+- **niche-expert:** скилл §15.
+- **tz-writer:** `data/tz/tz-08.md`.
+- **copywriter:** `drafts/page-08.md` — профиль распашных (тип выбран): варианты/утепление/по размерам/цена под ключ.
+- **cluster-inspector:** `review/cluster-inspection-08.md` — серия из 8 витрин состоятельна; пара 03↔08 разведена
+  по интенту (03 = развилка типов пилляр, 08 = профиль распашных), центры/Рис./таблицы не пересекаются, двусторонний мост.
+- **page-builder:** два блока Porto `delivery/vorota-garazhnye-raspashnye-lipetsk-hero.html` + `-content.html`
+  (JSON-LD инлайн 8 узлов, hasCertification серт.2 ГОСТ 31174-2017; 2 inline-SVG: Рис.1 определитель вариантов
+  распашных + Рис.2 разрез утеплённого полотна; прайс монтаж ворот + доставка) + превью `preview/page-08.html`.
+- **ретро-правка 03:** добавлен обратный мост 03 → 08 (анкор «распашные гаражные ворота») в
+  `delivery/garazhnye-vorota-lipetsk-content.html`, `delivery/garazhnye-vorota-lipetsk.html`, `preview/page-03.html`.
+- **final-inspector:** `review/final-inspection-08.md` — Title 47, Descr 147, правило 4 PASS, тире 5/2261 (0 пред. с >1),
+  JSON-LD 8 узлов, SVG well-formed, гомоглифы 0 критичных/0 невидимых.
+- **Упаковка:** `delivery/vorota-garazhnye-raspashnye-lipetsk.{hero,content}.html` + превью + `meta-08.txt`; README до 8 витрин.
+- **Governance-ось:** продукт — распашные металлические ворота (серт.2 ГОСТ 31174-2017); секционные/автоматика —
+  развилка, не Offer; цена изделия — карточки; монтаж ворот + доставка — прайс; NAP 398056; тире по правилу; мост 03↔08.
+- **Открытые вопросы оператору:** реальные фото распашных ворот; URL каталога/фасетов; подтверждение обратного моста 03→08.

@@ -1,0 +1,16 @@
+МЕТА — витрина «Распашные гаражные ворота», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vorota-garazhnye-raspashnye/
+(завод-входных-дверей.рф/product-category/vorota-garazhnye-raspashnye/)
+
+Title (48 симв.):
+Распашные гаражные ворота в Липецке — от завода
+
+Description (147 симв.):
+Распашные гаражные ворота в Липецке от завода «Сталь-Плюс»: стальные, с калиткой и утеплением, на заказ по размерам проёма, свой замер и установка.
+
+Open Graph:
+og:type = website
+og:title = Распашные гаражные ворота в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: распашные гаражные ворота с калиткой и утеплением, на заказ по размерам проёма, соответствие ГОСТ 31174-2017, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vorota-garazhnye-raspashnye/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vorota-garazhnye-raspashnye-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
