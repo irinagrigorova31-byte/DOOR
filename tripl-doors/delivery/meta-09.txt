@@ -1,0 +1,16 @@
+МЕТА — витрина «Входные группы», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-gruppy/
+(завод-входных-дверей.рф/product-category/vhodnye-gruppy/)
+
+Title (50 симв.):
+Входные группы в частный дом в Липецке — от завода
+
+Description (150 симв.):
+Входные группы для частного дома в Липецке от завода «Сталь-Плюс»: дверь, козырёк, крыльцо со ступенями и ограждение под ключ, на заказ по размерам.
+
+Open Graph:
+og:type = website
+og:title = Входные группы для частного дома в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: входные группы для частного дома под ключ — дверь, козырёк, крыльцо со ступенями и ограждение, на заказ по размерам, свой замер, доставка и монтаж.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-gruppy/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vhodnye-gruppy-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
