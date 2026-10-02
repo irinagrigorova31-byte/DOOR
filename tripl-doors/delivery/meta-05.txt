@@ -1,0 +1,16 @@
+МЕТА — витрина «Антивандальные ставни на окна», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/antivandalnye-stavni-na-okna/
+(завод-входных-дверей.рф/product-category/antivandalnye-stavni-na-okna/)
+
+Title (51 симв.):
+Антивандальные ставни на окна в Липецке — от завода
+
+Description (154 симв.):
+Стальные антивандальные ставни на окна в Липецке от завода «Сталь-Плюс»: на заказ по размерам проёма, защита от взлома, свой замер, доставка и установка.
+
+Open Graph:
+og:type = website
+og:title = Антивандальные ставни на окна в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: стальные антивандальные ставни на окна на заказ по размерам проёма, защита от взлома, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/antivandalnye-stavni-na-okna/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/antivandalnye-stavni-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)

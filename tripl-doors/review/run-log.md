@@ -114,3 +114,22 @@ JSON-LD внутри контент-блока.
 - Контроль: JSON-LD валиден (8 узлов у каждой), структурных запретов нет (нет doctype/html/head/body/footer/
   header/hero-класса/крошек), правило тире для 04 соблюдено, гомоглыфы 0 во всех новых файлах и превью.
 - Текст витрин 03/04 сохранён дословно (перевёрстка формата, не переписывание).
+
+---
+
+## Витрина 05 «Антивандальные ставни на окна» — автоматический прогон без SERP (2026-10-02)
+
+URL: `/product-category/antivandalnye-stavni-na-okna/`. Оператор: «файла с SERP не будет, делаем по инструкции».
+Сделано сразу в формате Porto (два блока) и по правилу тире.
+
+- **Без SERP:** `data/serp-parsed-05.md` фиксирует отсутствие топа; частотность — по промптам + скилл + перенос из к.01–04.
+- **prompts/domain/entities/triplets:** `data/prompts-05.md`, `domain-inventory-05.md`, `entities-05.md`, `triplets-05.md`.
+- **niche-expert:** скилл §12.
+- **tz-writer:** `data/tz/tz-05.md`.
+- **copywriter:** `drafts/page-05.md` — 837 слов, 3 тире (лимит 5.6); governance: класс/сертификат на ставни числом не заявляем.
+- **cluster-inspector:** `review/cluster-inspection-05.md` — серия из 5 витрин состоятельна, каннибализации нет.
+- **page-builder:** два блока Porto `delivery/antivandalnye-stavni-lipetsk-hero.html` + `-content.html` (JSON-LD инлайн, 8 узлов, БЕЗ hasCertification; 2 inline-SVG: развилка + устройство ставни; прайс только доставка + «монтаж после замера») + превью `preview/page-05.html`.
+- **final-inspector:** `review/final-inspection-05.md` — Title 51, Descr 153, правило 4 OK, тире OK, governance чисто, гомоглифы 0.
+- **Упаковка:** `delivery/antivandalnye-stavni-lipetsk.{hero,content}.html` + превью + `meta-05.txt`; README обновлён до 5 витрин.
+- **Governance-ось:** продукт — стальные ставни (заявлен оператором); сертификата/класса на ставни нет → не заявляем числом, hasCertification не ставим; роллетные — развилка, не товар; цена изделия — карточки; монтаж ставень — после замера.
+- **Открытые вопросы оператору:** делаем ли роллетные; сертификат/класс на ставни; прайс монтажа ставень.

@@ -26,6 +26,11 @@ full-bleed для hero и серых секций, дата обновления
 `garazhnye-vorota-lipetsk.html`, `-.jsonld`, `-infographics.html`, `meta-03.txt`.
 **Витрина 04 «Противопожарные двери (металлические)»** — `/product-category/dveri-protivopozharnye-metallicheskie/`:
 `dveri-protivopozharnye-lipetsk.html`, `-.jsonld`, `-infographics.html`, `meta-04.txt`.
+**Витрина 05 «Антивандальные ставни на окна»** — `/product-category/antivandalnye-stavni-na-okna/`:
+`antivandalnye-stavni-lipetsk-hero.html`, `-content.html`, превью `antivandalnye-stavni-lipetsk.html`, `meta-05.txt`.
+Продукт — стальные антивандальные ставни (металлоизделие завода, ОКВЭД 25.11). SERP не предоставлялся (сделано по
+инструкции). На ставни сертификата/класса защиты нет → числом не заявлено, hasCertification на витрине отсутствует;
+роллетные поданы честной развилкой, не как товар; монтаж ставень — «после замера» (в прайсе нет), доставка — из прайса.
 
 Витрины 01↔02 связаны двусторонним мостом (развод интентов «квартира» ↔ «частный дом/улица»).
 Витрины 03 (ворота) и 04 (противопожарные) дают односторонний мост → витрина 01 «входные двери» (смежная
