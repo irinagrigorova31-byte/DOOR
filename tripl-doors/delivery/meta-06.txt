@@ -1,0 +1,16 @@
+МЕТА — витрина «Бронированные двери», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/bronirovannye-dveri/
+(завод-входных-дверей.рф/product-category/bronirovannye-dveri/)
+
+Title (41 симв.):
+Бронированные двери в Липецке — от завода
+
+Description (151 симв.):
+Бронированные усиленные стальные входные двери в Липецке от завода «Сталь-Плюс»: по размерам проёма, соответствие ГОСТ 31173-2016, свой замер и монтаж.
+
+Open Graph:
+og:type = website
+og:title = Бронированные двери в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: бронированные (усиленные стальные) входные двери повышенной взломостойкости, по размерам проёма, соответствие ГОСТ 31173-2016, свой замер, доставка и установка.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/bronirovannye-dveri/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/bronirovannye-dveri-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
