@@ -1,0 +1,16 @@
+МЕТА — витрина «Внутренние ставни на окна», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vnutrennie-stavni-na-okna/
+(завод-входных-дверей.рф/product-category/vnutrennie-stavni-na-okna/)
+
+Title (47 симв.):
+Внутренние ставни на окна в Липецке — от завода
+
+Description (143 симв.):
+Внутренние ставни на окна в Липецке от завода «Сталь-Плюс»: на заказ по размерам, для затемнения и интерьера, свой замер, доставка и установка.
+
+Open Graph:
+og:type = website
+og:title = Внутренние ставни на окна в Липецке — от завода
+og:description = Завод «Сталь-Плюс» в Липецке: внутренние ставни на окна на заказ по размерам, для затемнения и интерьера, свой замер, доставка и установка по Липецку.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vnutrennie-stavni-na-okna/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vnutrennie-stavni-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
