@@ -1,0 +1,23 @@
+МЕТА — витрина «Входные морозостойкие двери с терморазрывом», ООО «Сталь-Плюс», Липецк
+URL: https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-morozostojkie-dveri-s-termorazryvom/
+(завод-входных-дверей.рф/product-category/vhodnye-morozostojkie-dveri-s-termorazryvom/)
+
+Title (61 симв.):
+Входные морозостойкие двери с терморазрывом в Липецке — завод
+
+Description (158 симв.):
+Входные морозостойкие двери с терморазрывом в Липецке от завода «Сталь-Плюс»: в полотне и коробке, не промерзают зимой, на заказ по размерам, ГОСТ 31173-2016.
+
+Open Graph:
+og:type = website
+og:title = Входные морозостойкие двери с терморазрывом в Липецке — завод
+og:description = Завод «Сталь-Плюс» в Липецке: морозостойкие двери с терморазрывом в полотне и коробке, на заказ по размерам проёма, соответствие ГОСТ 31173-2016, свой замер, доставка и установка.
+og:url = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/product-category/vhodnye-morozostojkie-dveri-s-termorazryvom/
+og:image = https://xn-----6kcibbkcblan1b0ckd4b8ed3j.xn--p1ai/assets/hero/vhodnye-morozostojkie-dveri-s-termorazryvom-lipetsk-og.png  (1200×630, латиница; файл дозаполнить)
+
+ПРИМЕЧАНИЕ ОПЕРАТОРУ (важно): в SERP (serp-extra-122) наш домен уже ранжируется по этому кластеру,
+но по URL /product-category/dveri-s-termorazryvom/ (Яндекс поз. 4–8). Новый URL
+/product-category/vhodnye-morozostojkie-dveri-s-termorazryvom/ дублирует ту же интент-страницу →
+риск самоканнибализации. Решение (одно из): (1) публиковать на НОВОМ URL, а старый 301-редиректом на
+новый; (2) оставить старый URL ранжирующимся, а этот контент разместить на нём; (3) оставить обе и
+проставить canonical на основную. По умолчанию контент собран под запрошенный новый URL.
